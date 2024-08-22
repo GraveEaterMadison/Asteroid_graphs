@@ -1,0 +1,9 @@
+nasa_api:
+  key: 'Your_nasa_key'
+  asteroid_url: 'https://api.nasa.gov/neo/rest/v1/neo/browse?api_key={key}'
+  exoplanet_url: 'https://api.le-systeme-solaire.net/rest/bodies/'
+  star_url: 'https://api.nasa.gov/donki/FLR?startDate=YYYY-MM-DD&endDate=YYYY-MM-DD&api_key={key}'
+  mars_weather_url: 'https://api.nasa.gov/insight_weather/?api_key={key}&feedtype=json&ver=1.0'
+  image_search_url: 'https://images-api.nasa.gov/search?q={query}&media_type=image'
+logging:
+  level: INFO
