@@ -163,7 +163,7 @@ def plot_data(df, data_type):
         for i, (label, name) in enumerate(label_dict.items()):
             plt.figtext(0.99, 0.95 - i*0.02, f'{label}: {name}', horizontalalignment='right', verticalalignment='top', fontsize=8, color='black')
 
-    plt.figtext(0.99, 0.01, '© Sayak Kundu', horizontalalignment='right', verticalalignment='bottom', fontsize=8, color='gray')
+    plt.figtext(0.99, 0.01, '© GraveEater', horizontalalignment='right', verticalalignment='bottom', fontsize=8, color='gray')
     plt.tight_layout()
     
     # Add interactive zoom functionality
