@@ -6,15 +6,15 @@ import yaml
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Load configuration
+
 with open('config.yaml', 'r') as file:
     config = yaml.safe_load(file)
 
-# Set up logging
+
 logging.basicConfig(level=config['logging']['level'])
 logger = logging.getLogger(__name__)
 
-# NASA API Key and URLs from config
+
 NASA_API_KEY = config['nasa_api']['key']
 ASTEROID_URL = config['nasa_api']['asteroid_url'].format(key=NASA_API_KEY)
 EXOPLANET_URL = config['nasa_api']['exoplanet_url']
